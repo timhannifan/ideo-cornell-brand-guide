@@ -5549,7 +5549,9 @@ p.right {
   #cornellseal {
     display: none;
   }
-
+  .hide-menu {
+    display: none; 
+  }
 }
 
 
@@ -5560,9 +5562,15 @@ p.right {
   height: 65px;
   width: 65px;
   top: 45px;
-  right: 75px;
+  right: 155px;
   z-index: 1;
   position: absolute;
+}
+
+.menu-text {
+    font-family: "Work Sans";
+    padding-left: 6px;
+    color: #FFFFFF;
 }
 
 a, .widget-area .widget .textwidget a:not(.stag-button), .site-nav .textwidget a:not(.stag-button), .ink-contact-form .stag-alert {

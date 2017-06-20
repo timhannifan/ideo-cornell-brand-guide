@@ -62,7 +62,7 @@
 			</nav><!-- #site-navigation -->
 			<?php endif; ?>
 
-			<a href="#" id="site-navigation-toggle" class="site-navigation-toggle"><i class="fa fa-navicon"></i></a>
+			<a href="#" id="site-navigation-toggle" class="site-navigation-toggle"><i class="fa fa-navicon"></i><span class="hide-menu menu-text">Menu</span></a>
 
 			<?php ink_maybe_show_archive_title( 'inner' ) ?>
 
